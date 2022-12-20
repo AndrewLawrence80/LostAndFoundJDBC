@@ -1,3 +1,5 @@
+create database if not exists lostandfound;
+use lostandfound;
 drop table if exists users;
 create table if not exists users(
 	username varchar(255) primary key,
